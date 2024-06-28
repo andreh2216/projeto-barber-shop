@@ -8,8 +8,17 @@
   
 }
 
+.dark button{
+  background-color: #232323;
+  color: #fff;
+}
+
 .dark .logotipo{
     filter: invert(1) brightness(2);
+}
+
+.light button{
+  background-color: #fff;
 }
 
 .light{
@@ -38,6 +47,10 @@
 }
 
 .container_topo button{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
     padding: 10px 20px;
     border-radius: 25px;
     font-size: 30px;

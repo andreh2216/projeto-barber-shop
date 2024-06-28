@@ -4,8 +4,7 @@ import Image from "next/image";
 import Logo from "../../public/barbearia.png";
 import Banner from "../../public/banner.jpg";
 import { CiDark } from "react-icons/ci";
-import { WiSolarEclipse } from "react-icons/wi";
-
+import { MdOutlineWbSunny } from "react-icons/md";
 
 import estilos from "./page.module.css";
 
@@ -26,7 +25,7 @@ export default function Home() {
 
           <Image src={Logo} className={estilos.logotipo}/>
 
-          <button onClick={alterarTema}>{tema ?<WiSolarEclipse />  :  <CiDark /> }</button>
+          <button onClick={alterarTema}>{tema ?<MdOutlineWbSunny /> :  <CiDark /> }</button>
 
         </header>
 
